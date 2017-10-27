@@ -1,3 +1,3 @@
-#Space Challenge
+Space Challenge
 
 2nd Project
