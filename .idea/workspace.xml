@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11e77684-8c05-42b0-9e6a-4e8ebb43ad85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Rocket.java" />
+    <list default="true" id="11e77684-8c05-42b0-9e6a-4e8ebb43ad85" name="Default" comment="Add the U1 and U2 classes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/U1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/U2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rocket.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rocket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+            <state relative-caret-position="270">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#274#275#0" expanded="true" />
                 <element signature="e#301#302#0" expanded="true" />
@@ -55,6 +56,26 @@
                 <element signature="e#560#561#0" expanded="true" />
                 <element signature="e#609#610#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="U1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/U1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="U2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/U2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,6 +104,8 @@
         <option value="$PROJECT_DIR$/src/SpaceShip.java" />
         <option value="$PROJECT_DIR$/src/Item.java" />
         <option value="$PROJECT_DIR$/src/Rocket.java" />
+        <option value="$PROJECT_DIR$/src/U1.java" />
+        <option value="$PROJECT_DIR$/src/U2.java" />
       </list>
     </option>
   </component>
@@ -268,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509094955446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add the Rocket class">
+      <created>1509095693024</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1509095693024</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -311,7 +341,9 @@
     <MESSAGE value="Add the Item class" />
     <MESSAGE value="Add SpaceShip interface" />
     <MESSAGE value="Add getters methods to the Item class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add getters methods to the Item class" />
+    <MESSAGE value="Add the Rocket class" />
+    <MESSAGE value="Add the U1 and U2 classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the U1 and U2 classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -341,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#274#275#0" expanded="true" />
             <element signature="e#301#302#0" expanded="true" />
@@ -353,6 +385,22 @@
             <element signature="e#560#561#0" expanded="true" />
             <element signature="e#609#610#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/U2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/U1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
