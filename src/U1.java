@@ -23,4 +23,8 @@ public class U1 extends Rocket {
     public boolean land() {
         return chanceOfLandingCrash >= random;
     }
+
+    public int getRocketCost() {
+        return RocketCost;
+    }
 }
