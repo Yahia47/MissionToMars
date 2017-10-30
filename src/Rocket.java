@@ -2,11 +2,13 @@ public class Rocket implements SpaceShip {
 
     private int currentWeight;
     private int cargoLimit; // In Kilograms
+    private int rocketCost = 0;
 
-    public Rocket(int cargoLimit)
+    public Rocket(int cargoLimit, int rocketCost)
     {
         currentWeight = 0;
         this.cargoLimit = cargoLimit;
+        this.rocketCost = rocketCost;
     }
 
     @Override
@@ -31,5 +33,9 @@ public class Rocket implements SpaceShip {
 
     public int getCurrentWeight() {
         return currentWeight;
+    }
+
+    public int getRocketCost() {
+        return rocketCost;
     }
 }
